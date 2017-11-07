@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
+		<title>La Octava - Contacto</title>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700|Playfair+Display:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/all.css" />
+		<link rel="stylesheet" href="css/contacto.css" />
+		<link rel="stylesheet" href="css/mobile.css" />
+		<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<div id="header_fix">
+				<div class="content">
+					<div class="content_mobile">
+						<h1><a href="index.php"><img src="img/la_octava.png" alt="La Octava" /></a></h1>
+						<div id="btn_mobile" class="mobile">
+							<img src="img/btn_mobile.png" alt="BTN Mobile" />
+						</div>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="productos.php">Productos</a></li>
+							<li><a href="linea-premium.php">Línea Premium</a></li>
+							<li><a href="recetas.php">Recetas</a></li>
+							<li><a href="historia.html">Historia</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+							<li class="redes"><a href="#facebook" target="_blank"><img src="img/ico_facebook.png" alt="Facebook" /></a></li>
+							<li class="redes"><a href="#twitter" target="_blank"><img src="img/ico_twitter.png" alt="Twitter" /></a></li>
+							<li class="redes"><a href="#youtube" target="_blank"><img src="img/ico_youtube.png" alt="Youtube" /></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div id="header_back">
+				<h2>Contacto</h2>
+			</div>
+		</header>
+		<section id="view_contacto">
+			<div class="content">
+				<div clasS="left">
+					<h3>FRIGORÍFICO LA OCTAVA</h3>
+					<div class="box_2">
+						<img src="img/ico_geoloc.png" alt="Ico" />
+						<p>Av. Emilio Castro 6228</p>
+						<p>C1440CLY</p>
+						<p>Capital Federal</p>
+						<p>República Argentina.</p>
+					</div>
+					<div class="box_2">
+						<img src="img/ico_tel_bl.png" alt="Ico" />
+						<p>Teléfono:</p>
+						<p>(54 11) 4687-9334</p>
+						<p>Fax:</p>
+						<p>(54 11) 4687-1428</p>
+					</div>
+					<div class="box_2">
+						<img src="img/ico_mail_bl.png" alt="Ico" />
+						<p>E-mail:</p>
+						<p>laoctava@laoctava.com.ar</p>
+					</div>
+				</div>
+				<hr class="mobile cont_hr" />
+				<div clasS="right">
+					<p>Si desea hacer una consulta, por favor complete el formulario y a la brevedad lo estaremos contactando.</p>
+					<form name="form_contacto" id="form_contacto" method="POST" action="">
+						<label for="data_nombre">NOMBRE</label>
+						<input type="text" name="data_nombre" id="data_nombre" placeholder="NOMBRE" />
+						<label for="data_empresa">EMPRESA</label>
+						<input type="text" name="data_empresa" id="data_empresa" placeholder="EMPRESA" />
+						<label for="data_email">EMAIL</label>
+						<input type="text" name="data_email" id="data_email" placeholder="EMAIL" />
+						<label for="data_mensaje">MENSAJE</label>
+						<textarea name="data_mensaje" id="data_mensaje" placeholder="MENSAJE"></textarea>
+						<input type="submit" value="ENVIAR" id="btn_enviar" />
+						<p id="msj_respuesta">Tu mensaje ha sido recibido. En breve nos contactaremos.</p>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section id="mapa_section">
+			<div class="map_overlay" onClick="style.pointerEvents='none'"></div>
+			<div id="map"></div>
+		</section>
+		<footer>
+			<div class="content">
+				<div class="left">
+					<img src="img/la_octava_ft.png">
+				</div>
+				<div class="right">
+					<div class="box">
+						<img src="img/ico_tel.png" alt="Tel" class="img_logo" />
+						<div class="info">
+							<span>Tel: +54 11 4687-9334</span>
+							<span>Fax: +54 11 4687-1428</span>
+						</div>
+					</div>
+					<div class="box">
+						<img src="img/ico_address.png" alt="Dirección" class="img_logo" />
+						<div class="info">
+							<span>Av. Emilio Castro 6228 (C1440CLY)</span>
+							<span>Buenos Aires, Argentina</span>
+						</div>
+					</div>
+					<div class="box">
+						<img src="img/ico_mail.png" alt="Mail" class="img_logo" />
+						<div class="info">
+							<span><a href="mailto:info@laoctava.com.ar">info@laoctava.com.ar</a></span>
+						</div>
+					</div>
+					<div class="box data_fiscal">
+						<img src="img/data_fiscal.jpg" alt="Data Fiscal" />
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- js -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js/jquery.bxslider.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/contacto.js"></script>
+		<script>
+	    	window.onload = function() {
+
+				function initialize() {
+					 
+					var latlng = new google.maps.LatLng(-34.6491789, -58.5116782,16);
+					var mapOptions = {
+						zoom: 16,
+						center: latlng,
+						mapTypeId: google.maps.MapTypeId.ROADMAP,
+					}
+					var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+					var image = 'img/la_octava_pin.png';
+
+					var myLatLng = new google.maps.LatLng(-34.6491896, -58.5096098);
+
+					var marker = new google.maps.Marker({
+					    position: myLatLng,
+					    icon: image,
+					    title:"La Octava"
+					});
+
+					marker.setMap(map);
+
+				}
+			 
+			
+				initialize();
+			}
+	    </script>
+	    <script async defer 
+	        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2VJp6PawH66vH6ez4VkL4tblQqty2RZQ&signed_in=true&callback=initMap"></script>
+	</body>
+</html>

@@ -1,0 +1,347 @@
+#header_back{
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+	background-position: center 153px;
+}
+#header_back h2{
+	padding-top: 256px;
+	font-size: 67px;
+	font-weight: 400;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+}
+#header_back span{
+	display: block;
+	font-size: 38px;
+}
+#view_product .top_titular{
+	height: 180px;
+	padding-top: 80px;
+}
+#view_product .top_titular h2{
+    text-align: center;
+    font-size: 67px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #2d425b;
+    margin-bottom: 12px;
+}
+#view_product .top_titular span{
+	text-align: center;
+    font-size: 27px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #2d425b;
+}
+#header_fix{
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+#linea_premium_content{
+	background: #f5efe7;
+}
+#linea_regular_content{
+	padding-bottom: 80px;
+}
+#linea_premium_content .content, #linea_regular_content .content{
+	max-width: 1236px;
+	width: 100%;
+	text-align: center;
+}
+.mont_img_sup{
+	margin: 35px 0 32px 0;
+}
+.mont_img_inf{
+	margin: 21px 0 50px 0;
+}
+
+
+#recomendaciones_del_chef{
+	margin-top: 75px;
+}
+#recomendaciones_del_chef .content{
+	max-width: 1383px;
+	width: 90%;
+}
+#recomendaciones_del_chef h3{
+	font-size: 47px;
+	line-height: 56px;
+	margin: auto;
+	color: #003516;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin-bottom: 18px;
+	max-width: 637px;
+}
+#recomendaciones_del_chef p{
+	color: #4e4c4c;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+}
+#recomendaciones_del_chef hr{
+	width: 535px;
+	border: 1px dashed #aca8a2;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	padding-top: 31px;
+	margin-bottom: 78px;
+}
+.list_recomd{
+	display: inline-block;
+}
+.list_recomd li{
+	float: left;
+	width: 32%;
+	margin-left: 2%;
+	max-width: 445px;
+	margin-bottom: 62px;
+}
+.list_recomd li.first{
+	margin-left: 0;
+}
+.list_recomd li img{
+	width: 100%;
+}
+.list_recomd span{
+	display: block;
+	color: #b17c57;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	text-align: left;
+}
+.list_recomd .recomd_titular{
+	font-size: 23px;
+	margin-bottom: 13px;
+	line-height: 26px;
+}
+.list_recomd .date{
+	font-size: 12px;
+}
+
+/* Banner */
+
+#banner_premium{
+	background: transparent url('../img/banner_linea_premium.jpg') no-repeat center;
+	height: 314px;
+	padding-top: 206px;
+	color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+#banner_premium h3{
+	font-size: 47px;
+	font-weight: 700;
+	margin-bottom: 39px;
+}
+#banner_premium p{
+	font-size: 17px;
+	line-height: 26px;
+	max-width: 70%;
+	margin: auto;
+}
+
+
+/* View Product */
+
+#view_product{
+	height: 892px;
+}
+#view_product .content{
+	max-width: 1238px;
+	width: 90%;
+}
+#view_product .top{
+	padding-top: 60px;
+	height: 40px;
+}
+#view_product .top .left{
+	float: left;
+}
+#btn_menu{
+	color: #a3a39f;
+	width: 104px;
+	height: 28px;
+	background: transparent url('../img/back_btn_menu.png') no-repeat;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 12px 0 0 25px;
+	display: block;
+}
+.btn_sty{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	width: 137px;
+	text-align: center;
+	height: 28px;
+	padding-top: 10px;
+	border: 1px solid #dfdfdd;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: transparent;
+	cursor: pointer;
+}
+.btn_sty a{
+	color: #7b7b78;
+}
+.btn_sty_over{
+	background: #e4dfd7;
+}
+#btn_prev, #btn_next{
+	float: left;
+	margin-left: 9px;
+}
+#view_product .top .center{
+	float: left;
+	margin-left: 34%;
+}
+#view_product .top .right{
+	float: right;
+}
+#view_product hr{
+	width: 100%;
+	border: 1px solid #b17c57;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin: 19px 0 22px 0;
+}
+.hr_regular{
+	border-color: #eaeae8 !important;
+}
+.hr_sub{
+	border-color: #eaeae8 !important;
+	margin: 24px 0 !important;
+	width: 90% !important;
+}
+.hr_sub_prem{
+	border-color: #ddc7b5 !important;
+}
+
+.view_product_content{
+	display: inline-block;
+	width: 100%;
+}
+.view_product_content .left{
+	float: left;
+	width: 44%;
+	margin-right: 4%;
+}
+.view_product_content .left img{
+	width: 100%;
+}
+.view_product_content .right{
+	float: right;
+	width: 52%;
+	text-align: left;
+}
+.view_product_content p.txt_1{
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	color: #2d425b;
+	line-height: 29px;
+	width: 90%;
+	margin-bottom: 43px;
+}
+.data_info{
+	height: 32px;
+}
+.data_info img, .data_info span{
+	float: left;
+}
+.data_info img{
+	margin-left: 4px;
+}
+.data_info span{
+	color: #2d425b;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-left: 6px;
+	position: relative;
+	top: 6px;
+}
+.data_info .tit{
+	color: #b1b1b1;
+}
+
+/* Data Info Box */
+.data_info_box .tit_box{
+	color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	padding: 13px 0;
+	background: #b1b1b1;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 24px;
+	font-weight: 600;
+}
+.data_info_box_left, .data_info_box_right{
+	float: left;
+	width: 45%;
+}
+.data_info_box_right{
+	margin-left: 10%;
+}
+.data_info_box .hr_sub{
+	width: 100% !important;
+}
+
+#view-recetas{
+	padding-bottom: 165px;
+}
+#view-recetas h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 47px;
+	color: #2d425b;
+	text-align: center;
+}
+#view-recetas hr{
+	width: 90%;
+	border: 1px dashed #d6d6d6;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin: 41px auto 49px auto;
+}
+
+
+/* Galery Producto */
+
+#galery-producto{
+	background: #e5e6ea;
+	padding: 90px 0 105px 0;
+}
+#galery-producto h3{
+	text-align: center;
+	font-size: 45px;
+	color: #2d425b;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 47px;
+}
+#galery-producto ul{
+	display: inline-block;
+}
+#galery-producto ul li{
+	float: left;
+	width: 22%;
+	margin-left: 4%;
+	cursor: pointer;
+	position: relative;
+	margin-bottom: 25px;
+}
+#galery-producto ul li.first{
+	margin-left: 0;
+}
+#galery-producto ul li img{
+	width: 100%;
+}

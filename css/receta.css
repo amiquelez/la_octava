@@ -1,0 +1,85 @@
+#header_back{
+	background: transparent url('../img/back_linea_premium.jpg') no-repeat center 153px;
+}
+#view-receta{
+	padding-top: 41px;
+}
+#view-receta .redes{
+	margin-bottom: 66px;
+}
+#view-receta .data{
+	font-family: 'Playfair Display', serif;
+	color: #4e4c4c;
+	margin-bottom: 45px;
+	display: inline-block;
+	width: 100%;
+}
+#view-receta .data h3{
+	font-size: 47px;
+	font-weight: 700;
+	margin-bottom: 28px;
+}
+#view-receta .data p{
+	font-size: 17px;
+	line-height: 22px;
+}
+#view-receta .data ul{
+	margin-left: 25px;
+}
+#view-receta .data .dest{
+	font-weight: 700;
+}
+#view-receta .data_info{
+	margin-bottom: 19px;
+	display: block;
+}
+
+
+/* Recetas Relacionadas */
+
+#recetas_relacionadas{
+	width: 100%;
+	display: inline-block;
+	font-family: 'Playfair Display', serif;
+	color: #2d425b;
+	text-align: center;
+	padding-bottom: 100px;
+}
+#recetas_relacionadas .content{
+	width: 90%;
+	max-width: 1238px;
+}
+#recetas_relacionadas h2{
+	font-size: 47px;
+	margin-bottom: 21px;
+}
+#recetas_relacionadas p{
+	line-height: 18px;
+}
+.relacionadas li{
+	float: left;
+	width: 24%;
+	margin-left: 1%;
+	position: relative;
+}
+.relacionadas li:first-Child{
+	margin-left: 0;
+}
+.relacionadas li img{
+	width: 100%;
+}
+.relacionadas li h4, .relacionadas li p{
+	color: #2d425b;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	width: 90%;
+	margin: auto;
+}
+.relacionadas li h4{
+	font-size: 18px;
+	font-weight: 700;
+	margin: 20px auto 10px auto;
+}
+.relacionadas li p{
+	font-size: 9px;
+}

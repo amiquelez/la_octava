@@ -1,0 +1,20 @@
+#header_back{
+	background: transparent url('../img/back_historia.jpg') no-repeat center 153px;
+}
+#historia_content{
+	font-family: 'Playfair Display', serif;
+	padding: 73px 0 26px 0;
+}
+#historia_content h3{
+	font-size: 46px;
+	color: #2d425b;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 163px;
+}
+#historia_content p{
+	color: #4e4c4c;
+	font-size: 18px;
+	line-height: 26px;
+	margin-bottom: 27px;
+}

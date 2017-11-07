@@ -1,0 +1,35 @@
+#header_back{
+	background: transparent url('../img/back_producto_general.jpg') no-repeat center 153px;
+	background-size: contain;
+}
+#linea_premium_content{
+	margin: 80px 0 160px 0;
+}
+.list_products li{
+	display: none;
+	position: relative;
+}
+.list_products li:hover .overlay{
+	display: block;
+}
+.overlay_producto{
+	background-color:rgba(255, 255, 255, 0.35);
+}
+#linea_premium_content h2{
+	text-align: center;
+	font-size: 67px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	max-width: 75%;
+	margin: auto;
+	color: #2d425b;
+	margin-bottom: 102px;
+}
+
+@media only screen and (max-width: 640px){
+
+	header{
+		height: 170px;
+	}
+
+}

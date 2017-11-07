@@ -1,0 +1,116 @@
+#header_back{
+	background: transparent url('../img/back_contacto.jpg') no-repeat center 153px;
+}
+#view_contacto{
+	width: 100%;
+	display: inline-block;
+	padding: 66px 0 75px 0;
+}
+#view_contacto .left, #view_contacto .right{
+	width: 50%;
+	float: left;
+}
+#view_contacto .left{
+	width: 25%;
+	margin: 0 12.5%;
+}
+#view_contacto .right{
+	width: 40%;
+	margin: 0 7% 0 3%;
+}
+
+#view_contacto .left h3{
+	font-size: 24px;
+	color: #2d425b;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#view_contacto .right p{
+	color: #4e4c4c;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	line-height: 26px;
+	margin-bottom: 38px;
+}
+
+#form_contacto label, #form_contacto input, #form_contacto textarea{
+	float: left;
+}
+#form_contacto label{
+	width: 15%;
+	margin-right: 4%;
+	text-align: right;
+	color: #919191;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	margin-top: 16px;
+}
+#form_contacto input, #form_contacto textarea{
+	width: 76%;
+	padding: 0 2%;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-bottom: 10px;
+}
+#form_contacto textarea{
+	height: 118px;
+	float: right;
+}
+#form_contacto input{
+	height: 38px;
+}
+#btn_enviar{
+	float: right !important;
+	background: #2d425b;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	cursor: pointer;
+	width: 81% !important;
+	border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	border: none !important;
+}
+
+
+/* MAP */
+
+#mapa_section{
+	display: inline-block;
+	width: 100%;
+}
+#map{
+	height: 445px;
+}
+.map_overlay {
+   background: transparent; 
+   position: relative; 
+   width: 100%;
+   height: 445px; 
+   top: 445px;
+   margin-top: -445px;
+   z-index: 9999;
+}
+#msj_respuesta{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 600;
+    float: right;
+    display: none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: transparent;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: transparent;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: transparent;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: transparent;
+}

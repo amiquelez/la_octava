@@ -1,0 +1,118 @@
+#header_back{
+	background: transparent url('../img/back_linea_premium.jpg') no-repeat center 153px;
+}
+#linea_premium_content{
+	background: #f5efe7;
+	padding-bottom: 150px;
+}
+#linea_premium_content .content{
+	max-width: 1236px;
+	width: 100%;
+	text-align: center;
+}
+#linea_premium_content p{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	line-height: 28px;
+	color: #4e4c4c;
+	width: 90%;
+	margin: auto;
+}
+.mont_img_sup{
+	margin: 35px 0 32px 0;
+}
+.mont_img_inf{
+	margin: 69px 0 40px 0;
+}
+#linea_premium_content h2 {
+    text-align: center;
+    font-size: 67px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin: auto;
+    color: #2d425b;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#recomendaciones_del_chef{
+	margin-top: 75px;
+}
+#recomendaciones_del_chef .content{
+	max-width: 1383px;
+	width: 90%;
+}
+#recomendaciones_del_chef h3{
+	font-size: 47px;
+	color: #4e4c4c;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+#recomendaciones_del_chef p{
+	color: #4e4c4c;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+}
+#recomendaciones_del_chef hr{
+	width: 535px;
+	border: 1px dashed #aca8a2;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	padding-top: 31px;
+	margin-bottom: 78px;
+}
+.list_recomd{
+	display: inline-block;
+}
+.list_recomd li{
+	float: left;
+	width: 32%;
+	margin-left: 2%;
+	max-width: 445px;
+	margin-bottom: 62px;
+}
+.list_recomd li.first{
+	margin-left: 0;
+}
+.list_recomd li img{
+	width: 100%;
+}
+.list_recomd span{
+	display: block;
+	color: #b17c57;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	text-align: left;
+}
+.list_recomd .recomd_titular{
+	font-size: 23px;
+	margin-bottom: 13px;
+	line-height: 26px;
+}
+.list_recomd .date{
+	font-size: 12px;
+}
+
+/* Banner */
+
+#banner_premium{
+	background: transparent url('../img/banner_linea_premium.jpg') no-repeat center;
+	height: 314px;
+	padding-top: 206px;
+	color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+#banner_premium h3{
+	font-size: 47px;
+	font-weight: 700;
+	margin-bottom: 39px;
+}
+#banner_premium p{
+	font-size: 17px;
+	line-height: 26px;
+	max-width: 70%;
+	margin: auto;
+}

@@ -1,0 +1,67 @@
+/* BX Slider */
+
+.bx-wrapper .bx-pager{
+    bottom: 25px !important;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+	background: #a18891 !important;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
+	background: #ffffff !important;
+}
+.bx-wrapper{
+	border: none !important;
+	top: -76px !important;
+}
+.fixslider{
+	position: relative;
+}
+header{
+	height: 802px;
+}
+
+.titular, .slogan{
+	font-family: 'Playfair Display', serif;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+}
+.titular{
+	top: 38%;
+	font-size: 47px;
+}
+.slogan{
+	top: 49%;
+	font-size: 25px;
+}
+#slider_1{
+	background: transparent url('../img/back_slider_1.jpg') no-repeat center;
+	min-height: 800px;
+}
+#slider_2{
+	background: transparent url('../img/back_slider_2.jpg') no-repeat center;
+	min-height: 800px;
+}
+.btn_conoce{
+	padding: 19px 74px;
+	background: rgba(93, 92, 92, 0.5);
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	position: absolute;
+	bottom: 5%;
+	left: 43%;
+	cursor: pointer;
+	border: 2px solid #ffffff;
+}
+.btn_conoce:hover{
+	background: #2d425b;
+}
+.btn_conoce a{
+	color: #ffffff;
+}

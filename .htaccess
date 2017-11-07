@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule productos/(.*) producto-detalle.php?prod=$1
+RewriteRule montesano/(.*) producto-detalle-premium.php?prod=$1
